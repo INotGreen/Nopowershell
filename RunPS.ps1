@@ -60,6 +60,7 @@ class PyPs:
         runspace.Close()
 
         stringBuilder = StringBuilder()
+        
 
         for each in result:
             stringBuilder.Append(each)
@@ -72,3 +73,15 @@ if __name__ == '__main__':
     command = 'get-process | select-object -property name'
     output = PyPs(True).run_ps(command)
     print(output)
+<#
+以下代码打印“get-process | select-object -property name”powershell 命令的输出，而不会在日志文件中留下痕迹。（可选的）
+
+从 PyPS 导入 PyPs
+PyPs(True).run_ps('get-process | select-object -property name')
+Ps 这个脚本需要安装 pythonnet 模块。您可以通过键入以下内容来安装它：
+
+点安装pythonnet
+
+或者
+
+pip install --pre pythonnet#>
