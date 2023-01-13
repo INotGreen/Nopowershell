@@ -1,16 +1,9 @@
-__all__ = ['PyPs']
-__author__ = "Aslan Gurtsiev"
+import os,sys,clr
 
-import os
-import sys
-
-import clr
-
-SMA_Dir = (lambda s: s + os.listdir(s)[0])(
-    r'C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Management.Automation\\')
+SMA_Dir = (lambda s: s + os.listdir(s)[0])(r'C:\\Windows\\Microsoft.NET\\assembly\GAC_MSIL\\System.Management.Automation\\')
 sys.path.append(SMA_Dir)
 
-clr.AddReference(r"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.dll")
+clr.AddReference(r"C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Runtime.dll")
 clr.AddReference("System.Management.Automation")
 clr.AddReference('System.Collections')
 clr.AddReference('System.Management')
@@ -23,65 +16,22 @@ from System.Reflection import BindingFlags
 from System.Text import StringBuilder
 
 
-class PyPs:
-    """This class allows you to run powershell commands from your python code.
-    Accepts one parameter: (silent). If set, the script won't leave any traces
-    in Powershell logs"""
-
-    def __init__(self, silent=False):
-
-        if silent:
-            self._disable_logging()
-
-    def _disable_logging(self):
-        """Taken from:
-        https://gist.github.com/benpturner/cb49sd37eb7eb3cfc0b6ea03dd00750c8"""
-
-        newrunspace = RunspaceFactory.CreateRunspace()
-        psEtwLogProvider = newrunspace.GetType().Assembly.GetType("System.Management.Automation.Tracing.PSEtwLogProvider")
-        if psEtwLogProvider:
-            etwProvider = psEtwLogProvider.GetField("etwProvider", BindingFlags.NonPublic | BindingFlags.Static)
-            eventProvider = EventProvider(Guid.NewGuid())
-            etwProvider.SetValue(None, eventProvider)
-
-    @staticmethod
-    def run_ps(command: str)   -> str:
-        """Runs the powershell command/script"""
-
+def run_ps(command):
         runspace = RunspaceFactory.CreateRunspace()
         runspace.Open()
         RunspaceInvoke(runspace)
-
         pipeline = runspace.CreatePipeline()
         pipeline.Commands.AddScript(command)
         pipeline.Commands.Add("Out-String")
-
         result = pipeline.Invoke()
         runspace.Close()
-
         stringBuilder = StringBuilder()
-        
-
         for each in result:
             stringBuilder.Append(each)
-
         return stringBuilder.ToString()
 
-
 if __name__ == '__main__':
-    # example: Running command "get=process" silently
-    command = 'get-process | select-object -property name'
-    output = PyPs(True).run_ps(command)
+   
+    command = 'calc'
+    output = run_ps(command)
     print(output)
-<#
-以下代码打印“get-process | select-object -property name”powershell 命令的输出，而不会在日志文件中留下痕迹。（可选的）
-
-从 PyPS 导入 PyPs
-PyPs(True).run_ps('get-process | select-object -property name')
-Ps 这个脚本需要安装 pythonnet 模块。您可以通过键入以下内容来安装它：
-
-点安装pythonnet
-
-或者
-
-pip install --pre pythonnet#>
