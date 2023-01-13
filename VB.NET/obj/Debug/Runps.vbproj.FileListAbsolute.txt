@@ -1,0 +1,12 @@
+C:\Users\Old Green\Desktop\Runps\bin\Debug\Runps.exe.config
+C:\Users\Old Green\Desktop\Runps\bin\Debug\Runps.exe
+C:\Users\Old Green\Desktop\Runps\bin\Debug\Runps.pdb
+C:\Users\Old Green\Desktop\Runps\bin\Debug\Runps.xml
+C:\Users\Old Green\Desktop\Runps\bin\Debug\System.Management.Automation.dll
+C:\Users\Old Green\Desktop\Runps\obj\Debug\Runps.Resources.resources
+C:\Users\Old Green\Desktop\Runps\obj\Debug\Runps.vbproj.GenerateResource.cache
+C:\Users\Old Green\Desktop\Runps\obj\Debug\Runps.vbproj.CoreCompileInputs.cache
+C:\Users\Old Green\Desktop\Runps\obj\Debug\Runps.vbproj.CopyComplete
+C:\Users\Old Green\Desktop\Runps\obj\Debug\Runps.exe
+C:\Users\Old Green\Desktop\Runps\obj\Debug\Runps.xml
+C:\Users\Old Green\Desktop\Runps\obj\Debug\Runps.pdb
