@@ -1,0 +1,11 @@
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\nopowershell.csproj.GenerateResource.cache
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\nopowershell.csproj.CoreCompileInputs.cache
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\Program.Properties.Resources.resources
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\bin\Release\System.Management.Automation.dll
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\nopowershell.csproj.CopyComplete
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\bin\Release\Power.exe.config
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\bin\Release\Power.exe
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\bin\Release\Power.pdb
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\Power.exe
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\Power.pdb
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\nopowershell.csproj.AssemblyReference.cache

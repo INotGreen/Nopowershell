@@ -1,0 +1,10 @@
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\bin\Release\RunPS.exe.config
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\bin\Release\RunPS.exe
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\bin\Release\RunPS.pdb
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\bin\Release\System.Management.Automation.dll
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\Program.Properties.Resources.resources
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\RunPS.csproj.GenerateResource.cache
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\RunPS.csproj.CoreCompileInputs.cache
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\RunPS.csproj.CopyComplete
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\RunPS.exe
+C:\Users\Old Green\Desktop\代码 (2)\nopowershell\obj\Release\RunPS.pdb
