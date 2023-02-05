@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSReflection", "PSReflection.csproj", "{A871F3F5-2C10-4731-9BB1-483EEEEFF879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunPS", "RunPS\RunPS.csproj", "{DF0E8999-9715-4D16-BB25-01F5AA3A5DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A871F3F5-2C10-4731-9BB1-483EEEEFF879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A871F3F5-2C10-4731-9BB1-483EEEEFF879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A871F3F5-2C10-4731-9BB1-483EEEEFF879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A871F3F5-2C10-4731-9BB1-483EEEEFF879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0E8999-9715-4D16-BB25-01F5AA3A5DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0E8999-9715-4D16-BB25-01F5AA3A5DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0E8999-9715-4D16-BB25-01F5AA3A5DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0E8999-9715-4D16-BB25-01F5AA3A5DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38608C21-D47C-4C50-BBCB-83952613A262}
+	EndGlobalSection
+EndGlobal

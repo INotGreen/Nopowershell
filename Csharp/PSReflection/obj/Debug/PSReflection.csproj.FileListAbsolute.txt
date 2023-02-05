@@ -1,0 +1,6 @@
+C:\Users\Old Green\Desktop\PSReflection\bin\Debug\PSReflection.pdb
+C:\Users\Old Green\Desktop\PSReflection\obj\Debug\PSReflection.csproj.CoreCompileInputs.cache
+C:\Users\Old Green\Desktop\PSReflection\obj\Debug\PSReflection.pdb
+C:\Users\Old Green\Desktop\PSReflection\bin\Debug\PSReflection.exe.config
+C:\Users\Old Green\Desktop\PSReflection\bin\Debug\PSReflection.exe
+C:\Users\Old Green\Desktop\PSReflection\obj\Debug\PSReflection.exe

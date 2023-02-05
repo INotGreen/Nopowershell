@@ -1,0 +1,11 @@
+C:\Users\Old Green\Desktop\PSReflection\RunPS\bin\Debug\RunPS.exe.config
+C:\Users\Old Green\Desktop\PSReflection\RunPS\bin\Debug\RunPS.exe
+C:\Users\Old Green\Desktop\PSReflection\RunPS\bin\Debug\RunPS.pdb
+C:\Users\Old Green\Desktop\PSReflection\RunPS\bin\Debug\PSReflection.dll
+C:\Users\Old Green\Desktop\PSReflection\RunPS\bin\Debug\PSReflection.pdb
+C:\Users\Old Green\Desktop\PSReflection\RunPS\bin\Debug\PSReflection.dll.config
+C:\Users\Old Green\Desktop\PSReflection\RunPS\obj\Debug\RunPS.csproj.AssemblyReference.cache
+C:\Users\Old Green\Desktop\PSReflection\RunPS\obj\Debug\RunPS.csproj.CoreCompileInputs.cache
+C:\Users\Old Green\Desktop\PSReflection\RunPS\obj\Debug\RunPS.csproj.CopyComplete
+C:\Users\Old Green\Desktop\PSReflection\RunPS\obj\Debug\RunPS.exe
+C:\Users\Old Green\Desktop\PSReflection\RunPS\obj\Debug\RunPS.pdb
